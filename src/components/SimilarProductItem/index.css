@@ -1,0 +1,31 @@
+.product-similar-container {
+  margin-right: 50px;
+  margin-bottom: 10%;
+}
+
+.similar-image {
+  height: 200px;
+  border-radius: 8px;
+}
+.similar-product-title {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+}
+.similar-product-brand {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 575px) {
+  .product-similar-container {
+    margin-bottom: 20px;
+  }
+}
